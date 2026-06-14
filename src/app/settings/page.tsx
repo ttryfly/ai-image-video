@@ -67,7 +67,7 @@ export default function SettingsPage() {
   };
 
   return (
-    <div className="p-8 max-w-2xl mx-auto">
+    <div className="p-4 lg:p-8 max-w-2xl mx-auto">
       <h1 className="text-3xl font-bold mb-6">设置</h1>
 
       <Card className="mb-6">

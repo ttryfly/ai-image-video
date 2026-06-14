@@ -110,7 +110,7 @@ export default function ImageToVideoPage() {
   };
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
+    <div className="p-4 lg:p-8 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-2">图生视频</h1>
       <p className="text-muted-foreground mb-6">上传一张图片，使用 AI 让它动起来</p>
 

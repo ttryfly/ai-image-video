@@ -93,7 +93,7 @@ export default function ImageEditPage() {
   };
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
+    <div className="p-4 lg:p-8 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-2">图生图</h1>
       <p className="text-muted-foreground mb-6">上传参考图片，使用 AI 进行风格转换、局部优化或场景重塑</p>
 

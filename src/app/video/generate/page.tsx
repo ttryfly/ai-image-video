@@ -95,7 +95,7 @@ export default function TextToVideoPage() {
   };
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
+    <div className="p-4 lg:p-8 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-2">文生视频</h1>
       <p className="text-muted-foreground mb-6">使用 Agnes Video V2.0 根据文本描述生成高质量视频</p>
 

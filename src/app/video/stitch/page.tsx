@@ -130,7 +130,7 @@ export default function VideoStitchPage() {
   const completedCount = segments.filter(s => s.status === 'completed').length;
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
+    <div className="p-4 lg:p-8 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-6">视频拼接</h1>
       <p className="text-muted-foreground mb-6">
         将多个视频片段拼接成更长的视频。每个片段使用前一个片段的最后一帧作为起始帧，实现无缝衔接。
